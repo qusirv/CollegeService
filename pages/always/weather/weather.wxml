@@ -1,0 +1,24 @@
+<import src="../../../common/templet.wxml"/>
+<view class="body">
+    <view class="city">{{weather.city}}</view>
+
+    <view wx:for="{{weather.daily}}" class="weather">
+        <view class="time"> {{item.time}} </view>
+        <view class="data">
+            白天： 
+            <image src="images/{{item.codeDay}}.png" class="weatherImg" />
+            <text class="weatherText">{{item.textDay}}</text>
+        </view>
+
+        <view class="data">
+            夜间： 
+            <image src="images/{{item.codeNight}}.png" class="weatherImg" />
+            <text class="weatherText">{{item.textNight}} </text>
+        </view>
+
+        <view class="data">
+            温度： {{item.high}}° - {{item.low}}°
+        </view>
+    </view>
+    <template is="footer"/>
+</view>

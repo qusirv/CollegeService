@@ -1,0 +1,24 @@
+<view class="all">
+    <view class="userInfo">
+        <image src="{{userInfo.avatarUrl}}" class="userImg" />
+        <text class="userNickName">{{userInfo.nickName}}</text>
+    </view>
+
+    <view class="menus">
+        <view class="userInfo menu"   bindtap="yjjy">
+            <!-- <image src="../../../images/me/yj.png" class="menuImg" />  -->
+            <text class="menuTxt"> 意见与建议 </text>
+        </view>
+
+        <view class="userInfo menu" bindtap="aboutApp">
+            <!-- <image src="../../../images/me/app.png" class="menuImg" />  -->
+            <text class="menuTxt"> 关于程序 </text>
+        </view>
+
+        <view class="userInfo menu" bindtap="aboutMe">
+            <!-- <image src="../../../images/me/me.png" class="menuImg" />  -->
+            <text class="menuTxt"> 关于作者 </text>
+        </view>
+        <view class="duoyu"></view>
+    </view>
+</view>

@@ -1,0 +1,9 @@
+<view class="body">
+    <text class="nav" bindtap="weatherQuery">qq</text>
+    <text class="nav" bindtap="historyToday">sina</text>
+    <text class="nav" bindtap="girl">文本3</text>
+    <text class="nav" bindtap="starLucky">测试1</text>
+    <text class="nav">测试2</text>
+    <text class="nav">测试3</text>
+    {{haha}}
+</view>

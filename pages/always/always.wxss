@@ -1,0 +1,12 @@
+.nav {
+    border: 1px solid #DFDFDF;
+    border-radius: 10px;
+    text-align: center;
+    width: 100%;
+    height: 120rpx;
+    line-height: 120rpx;
+    float: left;
+    margin-bottom: 80rpx;
+}
+
+

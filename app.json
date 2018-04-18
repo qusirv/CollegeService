@@ -1,0 +1,45 @@
+{
+  "pages": [
+    "pages/always/always",
+    "pages/always/weather/weather",
+    "pages/always/history/history",
+    "pages/always/girl/girl",
+    "pages/always/starLucky/starLuckyInput",
+    "pages/always/starLucky/starLuckyDetail",
+    "pages/more/more",
+    "pages/me/me",
+    "pages/me/aboutApp/aboutApp",
+    "pages/me/aboutMe/aboutMe"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "red",
+    "navigationBarTitleText": "校园帮帮帮",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#888888",
+    "selectedColor": "#09BB07",
+    "backgroundColor": "",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/always/always",
+        "text": "首页",
+        "iconPath": "images/tabbar/all.png",
+        "selectedIconPath": "images/tabbar/alwaysd.png"
+      },
+      {
+        "pagePath": "pages/more/more",
+        "text": "资讯",
+        "iconPath": "images/tabbar/Viewlist.png",
+        "selectedIconPath": "images/tabbar/mored.png"
+      },
+      {
+        "pagePath": "pages/me/me",
+        "text": "我",
+        "iconPath": "images/tabbar/account.png",
+        "selectedIconPath": "images/tabbar/med.png"
+      }
+      ]
+  }
+}

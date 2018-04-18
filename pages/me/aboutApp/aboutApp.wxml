@@ -1,0 +1,8 @@
+<view class="body">
+    <view class="aboutApp">
+        <view class="aboutTitle">关于程序</view>
+        <view>由</view>
+        <view>【校园帮帮帮】小程序目的是为提供高校同学便利，还有的没想出来。后期继续完善</view> 
+        <view>作者：游雪珂  小妹妹联系方式：15882089518</view>
+    </view>
+</view>

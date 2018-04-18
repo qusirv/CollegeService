@@ -1,0 +1,3 @@
+<template name="footer">
+    <view class="desc">王 可  王  可  王  可</view>
+</template>

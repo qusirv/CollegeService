@@ -1,0 +1,7 @@
+.aboutAll {
+    line-height: 80rpx;
+    font-size: 18px;
+}
+.aboutTitle {
+    text-align: center
+}

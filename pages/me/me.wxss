@@ -1,0 +1,34 @@
+.all {
+    background-color: #efeff4;
+}
+.userInfo {
+    margin-top: 40rpx;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #fff
+}
+.userImg {
+    width: 128rpx;
+    height: 128rpx;
+    margin: 20rpx;
+    border-radius: 50%;
+}
+.userNickName {
+    color: #AAA
+}
+.menu {
+    margin-top: 50rpx;
+    padding-left: 40rpx;
+    height: 80rpx
+}
+.menuImg {
+    width: 32px;
+    height: 32px;
+    margin-right: 40rpx
+}
+
+.duoyu {
+    height: 600rpx;
+    background-color: #efeff4
+}

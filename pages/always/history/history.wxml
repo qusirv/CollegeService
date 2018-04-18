@@ -1,0 +1,3 @@
+<view class="body txt">
+    <text> {{historyToday}} </text>
+</view>

@@ -1,0 +1,8 @@
+<import src="../../../common/templet.wxml"/>
+<view class="body">
+    <view wx:for="{{imgList}}" class="girlImg">
+        <view>{{item.title}}</view>
+        <image src="{{item.picUrl}}" />
+    </view>
+    <template is="footer" />
+</view>
